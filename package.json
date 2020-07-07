@@ -1,0 +1,34 @@
+{
+  "name": "next-js",
+  "version": "1.0.0",
+  "description": "This is next-js template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && npm install && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityasid/next-js.git"
+  },
+  "keywords": [
+    "next",
+    "nextjs",
+    "react",
+    "reactjs"
+  ],
+  "author": "Aditya Santra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityasid/next-js/issues"
+  },
+  "homepage": "https://github.com/adityasid/next-js#readme",
+  "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
